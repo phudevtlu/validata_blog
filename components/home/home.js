@@ -60,6 +60,6 @@ signout.addEventListener("click", () => {
   user.innerHTML = "Profile";
   localStorage.removeItem("index");
   user.classList.remove("user");
-  location.href = "../index.html";
+  location.href = "/index.html";
 });
 export default userIndex;
