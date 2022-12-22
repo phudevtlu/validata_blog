@@ -92,7 +92,7 @@ btnLogin.addEventListener("click", (e) => {
 
     if (isExist) {
       localStorage.setItem("index", json);
-      location.href = "./home/home.html";
+      location.href = "/components/home/home.html";
       clearInput(inputElement);
     } else {
       let listUsers = JSON.parse(localStorage.Users);
@@ -108,7 +108,7 @@ btnLogin.addEventListener("click", (e) => {
 
       if (isChecked) {
         localStorage.setItem("index", json);
-        location.href = "./home/home.html";
+        location.href = "/components/home/home.html";
       } else {
         alert("Đăng nhập thất bại");
         clearInput(inputElement);
